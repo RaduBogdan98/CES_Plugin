@@ -1,0 +1,18 @@
+{
+  "id": "maintainability-index-component-definer",
+  "name": "Maintainability Index Component Definer",
+  "description": "This plugin splits files into components based on their maintainability index",
+  "version": "0.0.1",
+  "schemaVersion": "1",
+  "icon": "",
+  "commands": [
+    {
+      "id": "maintainability-index-component-definer",
+      "name": "Maintainability Index Component Definer",
+      "type": "componentDefiner",
+      "description": "This plugin splits files into components based on their maintainability index",
+      "commandTemplate": "java -jar componentDefiner-1.0-SNAPSHOT.jar ${outputFile} ${filesToGroup}",
+      "configurationFields": []
+    }
+  ]
+}
