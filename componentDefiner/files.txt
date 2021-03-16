@@ -1,7 +1,0 @@
-component1/build.gradle
-component2/build.gradle
-component3/build.gradle
-component4/build.gradle
-component5/build.gradle
-build.gradle
-bla
