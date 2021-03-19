@@ -1,17 +1,17 @@
 {
-  "id": "maintainability-index-component-definer",
-  "name": "Maintainability Index Component Definer",
-  "description": "This plugin splits files into components based on their maintainability index",
+  "id": "gradle-modules-component-definer",
+  "name": "Gradle Modules Component Definer",
+  "description": "This plugin extracts the gradle modules from a project.",
   "version": "0.0.1",
   "schemaVersion": "1",
   "icon": "",
   "commands": [
     {
-      "id": "maintainability-index-component-definer",
-      "name": "Maintainability Index Component Definer",
+      "id": "gradle-modules-component-definer",
+      "name": "Gradle Modules Component Definer",
       "type": "componentDefiner",
-      "description": "This plugin splits files into components based on their maintainability index",
-      "commandTemplate": "java -jar componentDefiner-1.0-SNAPSHOT.jar ${outputFile} ${filesToGroup}",
+      "description": "This plugin extracts the gradle modules from a project.",
+      "commandTemplate": "java -jar gradle-modules-component-definer.jar ${outputFile} ${filesToGroup}",
       "configurationFields": []
     }
   ]
