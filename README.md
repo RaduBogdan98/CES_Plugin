@@ -5,8 +5,12 @@ This plugin enables the user to split a Gradle-based project into its distinct m
 Our plugin is meant to facilitate the better understanding of the evolution of each and every module inside a Gradle project, as well as the evolution of the system as a whole. It is developed as a plugin for Dx-Platform, a software risk and quality assesment platform designed for analyzing GitHub repositories.
 
 ## Screenshots
-![Evolution of the modules through changes: the workflow](screenshots/changes.jpg "Evolution of the modules through changes: the workflow")
-![Evolution of the modules through developers: how the knowledge is shared](screenshots/developers.jpg "Evolution of the modules through developers: how the knowledge is shared")
+Evolution of the modules through changes: the workflow
+
+![Evolution of the modules through changes: the workflow](screenshots/changes.jpg)
+
+Evolution of the modules through developers: how the knowledge is shared
+![Evolution of the modules through developers: how the knowledge is shared](screenshots/developers.jpg)
 
 ## Used Technology
 - Programming Language: Java
