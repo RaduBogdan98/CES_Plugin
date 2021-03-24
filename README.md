@@ -27,6 +27,7 @@ First of all you should download the binaries from the release Gradle Component 
       - provide a project ID, name and description;
       - provide an input source for the project you want to analyze: a log file or an URL to a GitHub repository;
       - for generating the log file use the following commands:
+
         `git log --encoding=UTF-8 --no-merges --find-renames --numstat --raw --format="commit:%H%nauthor:%an%nemail:%ae%ndate:%cD%nmessage:%n%s%n%b%nnumstat:" > proj_name.git` (for LINUX / Mac OS)
 
         `git log --encoding=UTF-8 --no-merges --find-renames --numstat --raw --format="commit:%H%nauthor:%an%nemail:%ae%ndate:%cD %nmessage:%n%s%n%b%nnumstat:" > proj_name.git` (for Windows)
@@ -36,12 +37,13 @@ First of all you should download the binaries from the release Gradle Component 
      - go to the "Define Components" section inside Configure;
      - click "Add new schema" and choose "Add by schema recipe" from the drop-down;
      - fill the schema name and choose our plugin from the drop-down as shown in the following image:
-     ![The configuration step](https://github.com/RaduBogdan98/CES_Plugin/tree/master/screenshots/configuration.jpg)
+     ![The configuration step](screenshots/configuration.jpg)
      - click on "Create" button and reload the page.
 
 2. Standalone usage with Docker
    - open a terminal or cmd inside DockerGradleComponentDefiner folder in the binaries archive;
    - run the following command:
+
      `sudo docker run -v $PWD/:/gradleComponentDefiner/files iulius98/gradle-component-definer files/components.json files/sample_filesToGroup.txt` (for LINUX / Mac OS)
 
      `docker run -v $PWD/:/gradleComponentDefiner/files iulius98/gradle-component-definer files/components.json files/sample_filesToGroup.txt` (for Windows PowerShell)
