@@ -57,7 +57,7 @@ First of all you should download the binaries from the latest release of Gradle 
 
    - the components.json file will appear inside the folder.
 
-## Aknowledgements
+## Acknowledgements
 We thank the developers of Dx-Platform for letting us use their product in order to have a better visual grip on the outcome of our project.
 
 ## License
