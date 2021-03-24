@@ -2,7 +2,7 @@
 This plugin enables the user to split a Gradle-based project into its distinct modules.
 
 ## Motivation
-Our plugin is meant to facilitate the better understanding of the evolution of each and every module inside a Gradle project, as well as the evolution of the system as a whole. It is developed as a plugin for Dx-Platform, a software risk and quality assesment platform designed for analyzing GitHub repositories.
+Our plugin is meant to facilitate the better understanding of the evolution of each and every module inside a Gradle project, as well as the evolution of the system as a whole. It is developed as a plugin for Dx-Platform, a software risk and quality assessment platform designed for analyzing GitHub repositories.
 
 ## Screenshots
 Evolution of the modules through changes: the workflow
@@ -23,7 +23,7 @@ Evolution of the modules through developers: how the knowledge is shared
 By splitting a project into its distinct modules, the user is able to observe the workflow inside the project, how the knowledge is shared between developers, which files are possible Bug Magnets or might cause anomalies. Being aware of the previous facts enables the user to make competent and knowledge-based decisions about the further development of the project.
 
 ## Installation
-First of all you should download the binaries from the latest release of Gradle Component Definer found at: https://github.com/RaduBogdan98/CES_Plugin/releases/tag/v1.0.0.
+First of all you should download the binaries from the latest release of Gradle Modules Component Definer found at: https://github.com/RaduBogdan98/CES_Plugin/releases/tag/v1.0.0.
 
 1. Usage for Dx-Platform
    - set up Dx-Platform on your computer as indicated by the authors;
