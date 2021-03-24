@@ -20,10 +20,10 @@ Evolution of the modules through developers: how the knowledge is shared
 - Build Platform: Maven
 
 ## Features
-By spliting a project into its distinct modules, the user is able to observe the workflow inside the project, how the knowledge is shared between developers, which files are possible Bug Magnets or might cause anomalies. Being aware of the previous facts enables the user to make competent and knowledge-based decisions about the further development of the project.
+By splitting a project into its distinct modules, the user is able to observe the workflow inside the project, how the knowledge is shared between developers, which files are possible Bug Magnets or might cause anomalies. Being aware of the previous facts enables the user to make competent and knowledge-based decisions about the further development of the project.
 
 ## Installation
-First of all you should download the binaries from the release Gradle Component Definer v1.0.0.
+First of all you should download the binaries from the latest release of Gradle Component Definer found at: https://github.com/RaduBogdan98/CES_Plugin/releases/tag/v1.0.0.
 
 1. Usage for Dx-Platform
    - set up Dx-Platform on your computer as indicated by the authors;
