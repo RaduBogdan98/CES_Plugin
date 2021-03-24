@@ -10,6 +10,7 @@ Evolution of the modules through changes: the workflow
 ![Evolution of the modules through changes: the workflow](screenshots/changes.jpg)
 
 Evolution of the modules through developers: how the knowledge is shared
+
 ![Evolution of the modules through developers: how the knowledge is shared](screenshots/developers.jpg)
 
 ## Used Technology
